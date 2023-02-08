@@ -1,0 +1,46 @@
+window.onload=function(){
+
+
+    document.getElementById("title").onmouseover=function(){
+        document.getElementById("title").className="titleover";
+    };
+    document.getElementById("title").onmouseout=function(){
+        document.getElementById("title").className="titleout";
+    };
+    document.getElementById("menu1").onmouseover=function(){
+        document.getElementById("menu1").className="menu1over";
+    };
+    document.getElementById("menu1").onmouseout=function(){
+        document.getElementById("menu1").className="menu1out";
+    };
+    document.getElementById("menu2").onmouseover=function(){
+        document.getElementById("menu2").className="menu2over";
+    };
+    document.getElementById("menu2").onmouseout=function(){
+        document.getElementById("menu2").className="menu2out";
+    };
+    document.getElementById("menu3").onmouseover=function(){
+        document.getElementById("menu3").className="menu3over";
+    };
+    document.getElementById("menu3").onmouseout=function(){
+        document.getElementById("menu3").className="menu3out";
+    };
+    document.getElementById("menu4").onmouseover=function(){
+        document.getElementById("menu4").className="menu4over";
+    };
+    document.getElementById("menu4").onmouseout=function(){
+        document.getElementById("menu4").className="menu4out";
+    };
+    document.getElementById("menu5").onmouseover=function(){
+        document.getElementById("menu5").className="menu5over";
+    };
+    document.getElementById("menu5").onmouseout=function(){
+        document.getElementById("menu5").className="menu5out";
+    };
+    document.getElementById("menu6").onmouseover=function(){
+        document.getElementById("menu6").className="menu6over";
+    };
+    document.getElementById("menu6").onmouseout=function(){
+        document.getElementById("menu6").className="menu6out";
+    };
+}();
