@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>さいたま市立木崎中学校コンピュータ部</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="さいたま市立木崎中学校コンピュータ部公式HPです">
+    </head>
+    <body>
+<div class="overflow">
+        <div class="top_title">
+            <h1>木崎中学校コンピュータ部</h1>
+            <div id="all_line">
+                <div id="line1" class="line1"></div>
+                <div id="line2" class="line2"></div>
+                <div id="line3" class="line3"></div>
+            </div>
+        </div>
+        <header id="header" class="header">
+            <div class="all_menu">
+                <div class="menu"><a href="index.html">トップページ</a></div>
+                <div class="menu"><a href="html/index1.html">ロゴ</a></div>
+                <div class="menu"><a href="html/index2.html">写真</a></div>
+                <div class="menu"><a href="html/index3.html">活動</a></div>
+                <div class="menu"><a href="html/index4.html">顧問</a></div>
+                <div class="menu"><a href="html/index5.html">部員</a></div>
+                <div class="menu"><a href="html/index6.html">スケジュール</a></div>
+            </div>
+        </header>
+        <main>
+            <h2>コンピュータ部に<br>ようこそ</h2>
+            <h3>体験入部絶賛大歓迎中のおしらせ</h3>
+            <h3>少しでもコンピュータ部に<br>興味のある方へ</h3>
+                <h3>まずは体験入部に<br>お越しください。</h3>
+                <h3>ご連絡は顧問の佐藤修先生まで</h3>
+                <h4>#個性豊かな部活</h3>
+        </main>
+</div>
+        <img class="background" src="https://rico-notes.com/sample/fade-in-only-css/main_visual.jpg">
+        <script>
+            let counter = 0 ;
+            document.getElementById("all_line").onclick=function(){
+                if (counter === 0){
+                    document.getElementById("header").className="header_click";
+                    document.getElementById("line1").className="line1_click";
+                    document.getElementById("line2").className="line2_click";
+                    document.getElementById("line3").className="line3_click";
+                    counter = 1 ;
+                }else if (counter ===1){
+                    document.getElementById("header").className="header_click2";
+                    document.getElementById("line1").className="line1_click2";
+                    document.getElementById("line2").className="line2_click2";
+                    document.getElementById("line3").className="line3_click2";
+                    counter = 0 ;
+                }
+            }
+
+        </script>
+    </body>
+
+</html>
