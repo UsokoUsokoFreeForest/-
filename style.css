@@ -569,7 +569,7 @@ background-color: rgba(0,0,0,0.5)
 
 
 body::before {
-background: url(../image/wallpaper.jpg) no-repeat center;
+background: url(image/wallpaper.jpg) no-repeat center;
 background-size: cover;
 content: "";
 display: block;
